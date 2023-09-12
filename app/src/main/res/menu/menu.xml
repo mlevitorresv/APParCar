@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/ItemAparcar"
+        android:title="Aparcar Coche" />
+    <item
+        android:id="@+id/ItemBuscar"
+        android:title="Buscar Coche" />
+    <item
+        android:id="@+id/ItemDatos"
+        android:title="Datos Coche" />
+    <item
+        android:id="@+id/ItemSalir"
+        android:title="Salir"
+        android:icon="@drawable/ic_baseline_close_24"/>
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AparcarActivity">
+
+    <TextView
+        android:id="@+id/textViewInfoAparcar"
+        android:layout_width="349dp"
+        android:layout_height="242dp"
+        android:text="Por favor, situate al lado del coche"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <Button
+        android:id="@+id/buttonAparcarCoche"
+        android:layout_width="326dp"
+        android:layout_height="61dp"
+        android:text="Aparcar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInfoAparcar"
+        app:layout_constraintVertical_bias="0.05"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textViewLoc"
+        android:layout_width="349dp"
+        android:layout_height="311dp"
+        android:text="La localización de tu coche es:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAparcarCoche" />
+</androidx.constraintlayout.widget.ConstraintLayout>
